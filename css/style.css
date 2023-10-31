@@ -862,3 +862,124 @@ span {
   color: #fff;
   background: rgb(50, 50, 136);
 }
+
+/*------------------ Responsive--------------*/
+
+@media (max-width: 769px){
+  nav {
+    padding: 15px 20px;
+  }
+  #about-home .myBlog {
+    font-size: 3.5rem;
+  }
+  nav img{
+    width: 130px;
+  }
+  #menu-btn{
+    display: initial;
+  }
+  #menu-close{
+    display: initial;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 30px 0 20px 20px;
+  }
+  nav .navigation ul{
+    position: absolute;
+    top: 0;
+    right: -220px;
+    width: 220px;
+    height: 100vh;
+    background: rgba(17,20,104,0.45);
+    backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255,255,255,0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.4s ease;
+  }
+    nav .navigation ul.active{
+      right: 0;
+    }
+    nav .navigation ul li{
+      padding: 20px 0 20px 40px;
+      margin-left: 0;
+    }
+    nav .navigation ul li a{
+      color: #fff;
+    }
+    #home p {
+      width: 90%;
+    }
+    #home{
+      padding-top: 0px;
+    }
+    #features {
+      padding: 8vw 4vw 0 4vw;
+    }
+    #course {
+      padding: 8vw 4vw 0 4vw;
+    }
+    #registration {
+      margin-top: 8vw;
+      padding: 6vw 4vw 6vw 4vw; 
+    }
+    #registration .remainder .time{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    #exparts {
+      padding: 8vw 8vw 4vw 8vw;
+      text-align: center;
+  }
+  footer .copyright .pro-links{
+    margin-top: 20px;
+  } 
+
+  #about-container {
+    padding: 8vw 4vw 2vw 4vw;
+  }
+  #about-container .about-img {
+    padding-right: 30px;
+  }
+  #trust .trust-img img {
+    width: 50px;
+    height: auto;
+  }
+
+  /* blog */
+
+  #blog-container {
+    padding: 8vw 4vw;
+  }
+
+  /* contact */
+
+  #contact {
+    padding: 8vw 4vw;
+  }
+  #contact .getin {
+    width: 250px;
+  }
+}
+  @media(max-width: 475px){
+    #registration {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #registration .remainder .time{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+  }
+
+/* About page */
+
+
