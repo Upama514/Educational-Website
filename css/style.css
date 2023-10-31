@@ -35,7 +35,6 @@ span {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
     z-index: 999;
 
-    /* background-color: #A4F734; */
   }
   nav img{
     width: 150px;
@@ -70,7 +69,8 @@ span {
   }
   nav .navigation ul li a.active,
   nav .navigation ul li a:hover{
-    color: yellowgreen;
+    color: #A0025C;
+    font-weight: bold;
   }
 
 .Dynamic{
