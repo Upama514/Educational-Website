@@ -12,7 +12,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #23242a;
-    background: linear-gradient(-45deg,red,green,black,blue,black,red);
+    background: linear-gradient(-45deg,black,blue,black);
 }
 .box{
     position: relative;
